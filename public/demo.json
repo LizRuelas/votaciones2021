@@ -1,0 +1,34 @@
+[
+	{
+		"nombre" : "Liz ruelas borda",
+        "dni" : "70202170"
+	},
+
+	{
+		"nombre" : "Andrea cabrera palomino",
+        "dni" : "71616647"
+
+	},
+
+	{
+		"nombre" : "Evelyn farfan valdivia",
+        "dni": "48073077"
+        
+	},
+
+	{
+		"nombre" : "Sheila acuña obregon",
+        "dni": "46788857"
+	},
+
+	{
+	   "nombre" : "Sheyla breña sicha",
+       "dni" : "76311018"
+	},
+    {
+	   "nombre" : "Melissa berrocal tipte",
+       "dni" : "45900980"
+	}
+
+
+]

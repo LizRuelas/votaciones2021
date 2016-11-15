@@ -2,138 +2,138 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Votaciones</title>
-	<link rel="shortcut icon" type="img/png" href="img/icono.png">
+	<title>Votaciones 2021</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link rel="shortcut icon" type="img/png" href="img/icono.png">
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
 </head>
 <body>
-	<header>
-		<nav>
-	    <div class="bg-nav"> 
-	    <img class="liston" src="img/listonbandera.png">
-	     	<div class="container">
-	        <img class="logo" alt="Onpe" src="img/logo-onpe.png">
-	        <span class="titulo" >Votaciones Presidenciales 2021</span>
-	      </div>
-	    </div>
-		</nav>
-	</header>
-	<section>
+	 <header >
+         <nav id="mainNav" class="navbar navbar-default  bg-nav">
+             <img class="logo" alt="Onpe" src="img/logo-onpe.png">
+    	     <img class="liston img-responsive" src="img/listonbandera.png">
+    	     <h1 class="titulo text-center">Votaciones Presidenciales 2021</h1>
+         </nav>
+	 </header>
+	 <section>
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-8"><br>
+				    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				        <ol class="carousel-indicators">
+				             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				             <li data-target="#myCarousel" data-slide-to="1"></li>
+				             <li data-target="#myCarousel" data-slide-to="2"></li>     
+				        </ol>
+				    <!-- Wrapper for slides -->
+				        <div class="carousel-inner" role="listbox">
+				             <div class="item active">
+				      	         <div class="row">
+					      	         <div class="col-md-7">
+					      		         <img src="https://www.onpe.gob.pe/img/nota-prensa/7d84ca0b55-20161110.jpg" alt="Chania" width="570" height="345">
+					      	         </div>
+					       	         <div class="col-md-5 noticia">
+					       	             <div>
+					       		             <h5>Nota de prensa</h5>
+					       		             <p>10/11/16</p>
+					       		             <h3>ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública</h3>
+					       	             </div>
+				       		         </div>
+				       	         </div>
+				             </div>
+				             <div class="item">
+				      	         <div class="row">
+					      	         <div class="col-md-7">
+					      		         <img src="https://www.onpe.gob.pe/img/nota-prensa/1b95d02ec7-20161109.jpg" alt="Chania" width="570" height="345">
+					      	         </div>
+					       	         <div class="col-md-5 noticia">
+					       	             <div>
+					       		             <h5>Nota de prensa</h5>
+					       		             <p>10/11/16</p>
+					       		             <h3>ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública</h3>
+					       	             </div>
+				       		         </div>
+				            	 </div>
+				             </div>
+				             <div class="item">
+				                 <div class="row">
+					      	         <div class="col-md-7">
+					      		         <img src="https://www.onpe.gob.pe/img/nota-prensa/6241c4d883-20161112.jpg" alt="Chania" width="570" height="345">
+					      	         </div>
+					       	         <div class="col-md-5 noticia">
+					          	         <div>
+					       		             <h5>Nota de prensa</h5>
+					       		             <p>10/11/16</p>
+					       		             <h3>ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública</h3>
+					       	             </div>
+				       		         </div>
+				       	         </div>
+				             </div>
+				        </div>
+				    <!-- Left and right controls -->
+				        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background: transparent">
+				             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				             <span class="sr-only">Previous</span>
+				        </a>
+				        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background: transparent">
+				             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				             <span class="sr-only">Next</span>
+				        </a>
+				  </div>
+			</div>
+			<div class="col-md-4">
+				 <div>
+	                 <form class="form-horizontal" action="" method="post" id="form">
+	                     <h2 class="text-center">VOTA AQUÍ</h2>
+                         <div class="form-group">
+                             <label class="control-label">Ingrese su nombre</label>
+                             <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre" >
+                         </div>
+                         <div class="form-group">
+                             <label class="control-label">Ingrese su DNI</label>
+                             <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI" name="Dni">
+                         </div>
+                         <div class="form-group text-center">
+                             <button type="submit" class="btn btn-default" id="boton">Ingresar</button>
+                         </div>
+                         <div id="loginResult" class="text-center"></div>
+                     </form>
+			      </div>
+			   </div>
+			</div>
+		</div>
+	 </section>
+	 <section class="contenedor">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
-					<br>
-				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-				    <!-- Indicators -->
-				    <ol class="carousel-indicators">
-				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				      <li data-target="#myCarousel" data-slide-to="1"></li>
-				      <li data-target="#myCarousel" data-slide-to="2"></li>
-				      
-				    </ol>
-				    <!-- Wrapper for slides -->
-				    <div class="carousel-inner" role="listbox">
-				      <div class="item active">
-				      	<div class="row">
-					      	<div class="col-md-7">
-					      		<img src="https://www.onpe.gob.pe/img/nota-prensa/7d84ca0b55-20161110.jpg" alt="Chania" width="570" height="345">
-					      	</div>
-					       	<div class="col-md-5 noticia">
-					       	<div>
-					       		<h5>Nota de prensa</h5>
-					       		<p>10/11/16</p>
-					       		<h3>
-					       			ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública
-					       		</h3>
-					       	</div>
-				       		</div>
-				       	</div>
-				      </div>
-
-				      <div class="item">
-				      	<div class="row">
-					      	<div class="col-md-7">
-					      		<img src="https://www.onpe.gob.pe/img/nota-prensa/1b95d02ec7-20161109.jpg" alt="Chania" width="570" height="345">
-					      	</div>
-					       	<div class="col-md-5 noticia">
-					       	<div>
-					       		<h5>Nota de prensa</h5>
-					       		<p>10/11/16</p>
-					       		<h3>
-					       			ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública
-					       		</h3>
-					       	</div>
-				       		</div>
-				       	</div>
-				      </div>
-				    
-				      <div class="item">
-				        <div class="row">
-					      	<div class="col-md-7">
-					      		<img src="https://www.onpe.gob.pe/img/nota-prensa/6241c4d883-20161112.jpg" alt="Chania" width="570" height="345">
-					      	</div>
-					       	<div class="col-md-5 noticia">
-					       	<div>
-					       		<h5>Nota de prensa</h5>
-					       		<p>10/11/16</p>
-					       		<h3>
-					       			ONPE obtiene reconocimiento por aplicar política de modernización de la gestión pública
-					       		</h3>
-					       	</div>
-				       		</div>
-				       	</div>
-				      </div>
-				    </div>
-				    <!-- Left and right controls -->
-				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background: transparent">
-				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				      <span class="sr-only">Previous</span>
-				    </a>
-				    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background: transparent">
-				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				      <span class="sr-only">Next</span>
-				    </a>
-				  </div>
-				</div>
-				<div class="col-md-4">
-					<div class="login-votar">
-						<h3 class="text-center">Votar aqui</h3>
-							<form>
-								
-							</form>
+				<div class="col-md-4 text-center">
+					<div class="noticias">
+						<span><img src="img/user1.jpg"></span>
+						<h3>"Buena iniciativa"</h3>
+						<p>El propósito de esta iniciativa de la ONPE es que las mesas de sufragio se instalen más temprano de manera que se evite la demora de su instalación y no se genere retrasos ni formación de colas.</p>
 					</div>
 				</div>
-			</div>
-		</div>
+				<div class="col-md-4 text-center">
+					<div class="noticias">
+						<span><img src="img/user2.jpg"></span>
+						<h3>"Buena iniciativa"</h3>
+						<p>El propósito de esta iniciativa de la ONPE es que las mesas de sufragio se instalen más temprano de manera que se evite la demora de su instalación y no se genere retrasos ni formación de colas.</p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="noticias">
+						<span><img src="img/user3.jpg"></span>
+						<h3>"Buena iniciativa"</h3>
+						<p>El propósito de esta iniciativa de la ONPE es que las mesas de sufragio se instalen más temprano de manera que se evite la demora de su instalación y no se genere retrasos ni formación de colas.</p>
+					</div>
+				</div>
 	</section>
-	<section>
-		<div class="container">
-			<div class="row users">
-				<div class="col-md-4">
-					<div class="user">
-						<img src="img/user1.jpg">
-						<span>"Buena iniciativa".</span>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="user">
-						<img src="img/user2.jpg">
-						<span>"Buena iniciativa".</span>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="user">
-						<img src="img/user3.jpg">
-						<span>"Buena iniciativa".</span>	
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
+		<footer>
 		<div class="container">
 			<div class="foot text-center">
 				<h5>© Copyright 2016 All Rights Reserved</h5>
@@ -141,9 +141,10 @@
 			</div>
 		</div>
 	</footer>
+
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js" ></script>		
 </body>
 </html>
