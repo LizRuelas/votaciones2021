@@ -1,14 +1,22 @@
 {
-  "name": "votacion2021",
+  "name": "votaciones2021",
   "version": "1.0.0",
-  "description": "Demo de votaciones electr�onicos 2021",
+  "description": "Antecedentes:",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Liz Ruelas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizRuelas/votaciones2021.git"
+  },
+  "author": "Liz Ruelas y Yeini",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LizRuelas/votaciones2021/issues"
+  },
+  "homepage": "https://github.com/LizRuelas/votaciones2021#readme",
   "dependencies": {
     "express": "^4.14.0",
     "socket.io": "^1.5.1"
