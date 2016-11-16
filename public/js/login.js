@@ -58,7 +58,7 @@ $(document).ready(function(){
 var validarCaracteres = function(e){
     var ascii = e.keyCode;
 
-        if (ascii==164 || ascii == 32 || ascii == 8 || (ascii >= 97 && ascii <= 122)||(ascii >= 65 && ascii <= 90)) {
+        if (ascii == 32 || ascii == 8 || (ascii >= 97 && ascii <= 122)||(ascii >= 65 && ascii <= 90 || ascii>=164)) {
             return true;
         } else {
             return false;
