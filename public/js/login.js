@@ -23,16 +23,17 @@ $(document).ready(function(){
           $('#loginResult').text("responseText: " + error.responseText 
             + ", textStatus: " + textStatus 
             + ", errorThrown: " + errorThrown);
-          $('v#loginResult').addClass("error");
+          $('#loginResult').addClass("error");
         }, 
 
         success: function(data){
-
+            
             for (var i = 0  ; i<data.length; i++) {
                 if(data[i].nombre == nombre && data[i].dni == dni){
-                         window.location = "votar.html";
-                         break;
-                
+                        $('#loginResult').text("");
+                        alert("Datos Correctos");
+                        window.location = "votar.html";
+                        return;
                 } 
             }
 

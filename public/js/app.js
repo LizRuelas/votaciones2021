@@ -25,8 +25,10 @@ $(document).ready(function(){
 			doc:doc,
 			status: "Connecting..."
 			};
+		alert("Voto realizado por unica vez");
 		console.log(data)
 		socket.emit("conectando", data);
+
 	});
 	$("#candidato2").click(function(evt){
 		evt.preventDefault();
@@ -38,6 +40,7 @@ $(document).ready(function(){
 			doc:doc,
 			status: "Connecting..."
 			};
+		alert("Voto realizado por unica vez");
 		console.log(data)
 		socket.emit("conectando", data);
 	});
@@ -51,6 +54,7 @@ $(document).ready(function(){
 			doc:doc,
 			status: "Connecting..."
 			};
+		alert("Voto realizado por unica vez");
 		console.log(data)
 		socket.emit("conectando", data);
 	});

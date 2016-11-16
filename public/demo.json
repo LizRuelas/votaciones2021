@@ -25,10 +25,18 @@
 	   "nombre" : "Sheyla Breña Sicha",
        "dni" : "76311018"
 	},
+
     {
 	   "nombre" : "Melissa Berrocal Tipte",
        "dni" : "45900980"
+	},
+
+	 {
+	   "nombre" : "Sthefany Floreano",
+       "dni" : "73435883"
 	}
+
+	
 
 
 ]

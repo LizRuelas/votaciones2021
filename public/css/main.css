@@ -1,14 +1,27 @@
 .bg-nav {
 	background-color: #3E6B89;
+	height: 107px;
 }
 .logo {
 	width: 18%;
-	padding: 2% 0;
 }
 .titulo {
     font-family: 'Cinzel', serif;
     color: white;
     font-size: 49px;
+}
+.head {
+	margin-top: 10px;
+}
+.datos {
+	font-family: 'Adamina', serif;
+	font-size: 21px;
+	margin: 20px 0;
+}
+.raya {
+	border: 2px solid #3E6B89;
+	width: 150px;
+	margin: 0 45%;
 }
 .liston {
 	float: right;
@@ -51,12 +64,27 @@
 	cursor: pointer;
 	width: 220px;
 	height:220px;
+	opacity: 0.5;
+	border-radius: 100%;
+}
+.candidatos img:hover {
+	opacity: 1;
 }
 .candidatos {
 	margin: 30px 0;
 }
 .resultado {
+	font-family: 'Adamina', serif;
+	font-size: 17px;
 	margin: 50px 0;
+}
+.raya2 {
+	border: 2px solid #3E6B89;
+	width: 100px;
+	margin: 3% 35%;
+}
+#numContador1, #numContador2, #numContador3  {
+	color: red;
 }
 .form-horizontal{
     border: 3px solid #122D42;
