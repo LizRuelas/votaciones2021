@@ -7,6 +7,9 @@ $(document).ready(function(){
         var nombre = $("#nombre").val();
         var dni =$("#dni").val();
 
+        localStorage.setItem("nombre" , nombre);
+        localStorage.setItem("dni" , dni);
+
     if (nombre && dni) { 
         
       $.ajax({
@@ -28,6 +31,7 @@ $(document).ready(function(){
                 if(data[i].nombre == nombre && data[i].dni == dni){
                          window.location = "votar.html";
                          break;
+                
                 } 
             }
 
