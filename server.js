@@ -52,7 +52,7 @@ io.on("connection", function(client) {
 		client.broadcast.emit("conectado", 
 			{ contador1: contador, contador2: contador2 , contador3:contador3,status:usuario.status});
 	});
-	
+
 	client.on("init", function (usuario) {
 		client.emit("conectado", 
 			{ contador1: contador, contador2: contador2 , contador3:contador3,status:usuario.status});
@@ -61,6 +61,6 @@ io.on("connection", function(client) {
 	});
 });
 
-server.listen(8080, function() {
+server.listen(process.env.PORT || 8080, function() {
 	console.log("El servidor ha iniciado en el puerto 8080");
 });
