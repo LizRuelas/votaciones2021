@@ -14,7 +14,8 @@ $(document).ready(function(){
         
       $.ajax({
         type: "GET",
-        url: "http://localhost:8080/demo.json", 
+        url: "http://"+location.host + "/demo.json", 
+        //url: "http://localhost:8080/demo.json", 
         contentType: "application/json; charset=utf-8",
         dataType: "json",
 
