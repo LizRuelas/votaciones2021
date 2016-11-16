@@ -30,6 +30,8 @@ La página ofrece al usuario la posibilidad de poder realizar su voto desde la c
 ### PÁGINA DONDE PUEDE VOTAR POR EL CANDIDATO DE SU ELECCIÓN.
 ![Página de inicio](http://i66.tinypic.com/2d1uwrp.png)
 
+## Ingresa a nuestra página http://votaciones2021.herokuapp.com/
+
 
 
 
