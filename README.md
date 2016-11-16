@@ -4,7 +4,7 @@
 
 Antecedentes:
 
-En varias ocasiones hemos hablado en la necesidad que tienen los peruanos para poder realizar su voto desde la comodidad de su casa por eso realizamos un proyecto donde cada peruano pueda votar por el candidato de su preferencia, además podrá visualizar simultáneamente el número de votos que lleva cada candidato.
+En varias ocasiones hemos hablado en la necesidad que tienen los peruanos para poder realizar el voto desde la comodidad de su casa por eso realizamos un proyecto donde cada peruano pueda votar por el candidato de su preferencia, además podrá visualizar simultáneamente el número de votos que lleva cada candidato.
 
 1. OBJETIVO
 
