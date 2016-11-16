@@ -99,11 +99,22 @@
 				  </div>
 				</div>
 				<div class="col-md-4">
-					<div class="login-votar">
-						<h3 class="text-center">Votar aqui</h3>
-							<form>
-								
-							</form>
+					<div >
+						 <form class="form-horizontal" action="" method="post" id="form">
+	                     <h2 class="text-center">VOTA AQUÍ</h2>
+                         <div class="form-group">
+                             <label class="control-label">Ingrese su nombre</label>
+                             <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre" >
+                         </div>
+                         <div class="form-group">
+                             <label class="control-label">Ingrese su DNI</label>
+                             <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI" name="Dni">
+                         </div>
+                         <div class="form-group text-center">
+                             <button type="submit" class="btn btn-default" id="boton">Ingresar</button>
+                         </div>
+                         <div id="loginResult" class="text-center"></div>
+                     </form
 					</div>
 				</div>
 			</div>
@@ -144,6 +155,7 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
