@@ -85,6 +85,7 @@
 }
 #numContador1, #numContador2, #numContador3  {
 	color: red;
+	font-size: 28px;
 }
 .form-horizontal{
     border: 3px solid #122D42;
