@@ -22,7 +22,7 @@
 	},
 
 	{
-	   "nombre" : "Sheyla Breña Sicha",
+	   "nombre" : "Sheyla Breña",
        "dni" : "76311018"
 	},
 
@@ -35,19 +35,64 @@
 	   "nombre" : "Sthefany Floreano",
        "dni" : "73435883"
 	},
-
-	{
-	   "nombre" : "Papu",
-       "dni" : "77777777"
-	},
-	{
-	   "nombre" : "Ivan",
-       "dni" : "88888888"
-	},
 	{
 	   "nombre" : "Jean",
        "dni" : "07634132"
+	},
+	{
+	   "nombre" : "Cilene De la Cruz",
+       "dni" : "47604712"
+	},
+	{
+	   "nombre" : "Jocelyn Lozano",
+       "dni" : "73587286"
+	},
+	{
+	   "nombre" : "Milagros Quispe",
+       "dni" : "46732209"
+	},
+	{
+	   "nombre" : "Nora Yauricaza",
+       "dni" : "70831039"
+	},
+	{
+	   "nombre" : "Paola Ortiz de Zevallos",
+       "dni" : "46699284"
+	},
+	{
+	   "nombre" : "Anabel Espinal",
+       "dni" : " 75539624"
+	},
+	{
+	   "nombre" : "Sara Castillo",
+       "dni" : "44538253"
+	},
+	{
+	   "nombre" : "Sammia Zubizarreta",
+       "dni" : "60076324"
+	},
+	{
+	   "nombre" : "Sofia Caballero",
+       "dni" : "44597079"
+	},
+	{
+	   "nombre" : "Sandy Ciquero",
+       "dni" : "45951625"
+	},
+	{
+	   "nombre" : "Andrea Maucaylli",
+       "dni" : "47116077"
+	},
+	{
+	   "nombre" : "Luis Alberto Moreno",
+       "dni" : "12345678"
+	},
+	{
+	   "nombre" : "Diana Navarro",
+       "dni" : "12345678"
+	},
+	{
+	   "nombre" : "Michelle Seguil",
+       "dni" : "72964492"
 	}
-
-
 ]
